@@ -1,16 +1,13 @@
 <template>
     <div class="welcome-view">
         <div class="intro">
-            <h1>Welcome to Fantom fWallet</h1>
-            <h2>Send, receive and stake your Opera FTM</h2>
+            <h1>Welcome to Rezy Wallet</h1>
+            <h2>Blockchain based Recycling PoC based on Fantom</h2>
         </div>
 
         <div class="view-account-main">
             <div class="main-buttons v2 collapse-md">
-                <button class="btn ledger-accounts-btn large w100p" @click="onConnectWalletClick">
-                    <icon data="@/assets/svg/connect.svg" width="32" height="32" aria-hidden="true" />
-                    Connect Wallet
-                </button>
+              
                 <router-link :to="{ name: 'create-account' }" class="btn create-account-btn large w100p">
                     <icon data="@/assets/svg/wallet.svg" width="32" height="32" :fill="false" aria-hidden="true" />
                     Create Wallet

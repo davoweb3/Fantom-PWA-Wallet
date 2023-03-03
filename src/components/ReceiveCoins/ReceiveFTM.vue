@@ -1,7 +1,7 @@
 <template>
     <div class="receive-ftm">
         <div class="align-center">
-            Send your Opera FTM to:
+            Press the QR logo for revealing your receiving address:
 
             <h3 class="address break-word h2" :class="addressCssClass">
                 {{ currentAccount.address }} &nbsp;
@@ -20,8 +20,7 @@
                 >
                     <template #popover-text>
                         Address copied to clipboard. <br />
-                        Warning: Use this address to receive Opera FTM only. If you are receiving FTM-ERC20 you need to
-                        use a different address!
+                        Warning: You will receive your PET or ALU Tokens to this address!
                     </template>
                 </f-copy-button>
                 <button class="btn large light same-size round" title="Show QR Code" @click="$refs.qrWindow.show()">
@@ -46,8 +45,7 @@
 
         <q-r-code-window ref="qrWindow" :address="currentAccount.address">
             <f-message type="warning" with-icon>
-                Warning: Use this address to receive Opera FTM only. If you are receiving FTM-ERC20 you need to use a
-                different address!
+                Warning: You will receive your PET or ALU Tokens to this address!!
             </f-message>
         </q-r-code-window>
 

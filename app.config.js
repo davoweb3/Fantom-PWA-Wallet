@@ -1,8 +1,8 @@
 const appConfig = {
     // app title
-    name: 'Fantom fWallet',
+    name: 'Rezy Wallet',
     // app description
-    description: 'Fantom fWallet',
+    description: 'Rezy Wallet powered by Fantom',
     // app keywords
     keywords: 'fantom, metamask',
     // apollo client settings
@@ -72,7 +72,7 @@ const appConfig = {
     },
     disableFLend: true,
     //
-    useTestnet: false,
+    useTestnet: true,
     // testnet config
     testnet: {
         // list of providers. if one of them is unavailable, another is randomly picked

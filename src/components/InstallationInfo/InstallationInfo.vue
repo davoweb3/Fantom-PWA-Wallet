@@ -1,7 +1,7 @@
 <template>
     <div class="installation-info">
         <p class="align-center">
-            The Fantom fWallet has been created as a Progressive Web App (PWA) which is easy to launch on all platforms:
+            Rezy Wallet has been created as a Progressive Web App (PWA) based on fWallet which is easy to launch on all platforms:
         </p>
 
         <div class="inst-buttons">

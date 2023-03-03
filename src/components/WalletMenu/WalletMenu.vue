@@ -110,33 +110,9 @@ export default {
                     walletLink: true,
                     fill: true,
                 },
-                {
-                    url: {
-                        name: 'staking',
-                    },
-                    title: 'Staking',
-                    icon: stakingIcon,
-                    stakingLink: true,
-                    fill: true,
-                },
-                {
-                    url: {
-                        name: 'fmint',
-                    },
-                    title: 'fMint',
-                    icon: fmintIcon,
-                    fillColor: true,
-                    fmintLink: true,
-                },
-                {
-                    url: {
-                        name: 'fswap',
-                    },
-                    title: 'fSwap',
-                    icon: swapIcon,
-                    fill: true,
-                    fswapLink: true,
-                },
+               
+               
+               
                 /*{
                     url: {
                         name: 'defi',
@@ -150,20 +126,12 @@ export default {
                     url: {
                         name: 'funiswap',
                     },
-                    title: 'fUNI',
+                    title: 'Redeem',
                     icon: funiIcon,
                     fill: true,
                     fUniswapLink: true,
                 },
-                {
-                    url: {
-                        name: 'gov',
-                    },
-                    title: 'Governance',
-                    icon: voteIcon,
-                    govLink: true,
-                    fill: true,
-                },
+               
                 {
                     url: {
                         name: 'settings',

@@ -42,8 +42,7 @@
                                     >
                                         <template #popover-text>
                                             Address copied to clipboard. <br />
-                                            Warning: Use this address to receive Opera FTM only. If you are receiving
-                                            FTM-ERC20 you need to use a different address!
+                                            Warning: You will get PET or ALU tokens to your address!
                                         </template>
                                     </f-copy-button>
 

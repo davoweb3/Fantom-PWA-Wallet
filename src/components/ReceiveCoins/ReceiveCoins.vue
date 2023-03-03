@@ -1,8 +1,8 @@
 <template>
     <f-card class="receive-coins f-card-double-padding">
-        <h2 class="align-start">Receive Opera FTM</h2>
+        <h2 class="align-start">Receive your PET tokens</h2>
 
-        <h3 class="align-center h2">Which blockchain are you receiving FTM from?</h3>
+        <h3 class="align-center h2">Choose opera Network</h3>
 
         <blockchain-picker disable-e-t-h disable-b-n-b @blockchain-pick="onBlockchainPick" />
 
@@ -28,7 +28,7 @@ const DEFAULT_COMPONENT = 'receive-f-t-m';
 export default {
     name: 'ReceiveCoins',
 
-    components: { BlockchainPicker, FCard, ReceiveFTM, ReceiveBNB, ReceiveETH, TransactionCompleting },
+    components: { BlockchainPicker, FCard, ReceiveFTM, TransactionCompleting },
 
     mixins: [eventBusMixin],
 

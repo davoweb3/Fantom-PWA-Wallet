@@ -10,7 +10,7 @@ const DEFAULT_GAS_LIMIT = '0x2dc6c0';
 const ZERO_AMOUNT = '0x0';
 
 // OPERA_CHAIN_ID is the chain id used by Fantom Opera blockchain.
-const OPERA_CHAIN_ID = '0xfa';
+const OPERA_CHAIN_ID = '0xfa2';
 
 // TESTNET_CHAIN_ID is the chain id used by Fantom Opera test net.
 const TESTNET_CHAIN_ID = '0xfa2';

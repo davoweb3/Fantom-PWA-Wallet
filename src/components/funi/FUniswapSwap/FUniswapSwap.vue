@@ -245,7 +245,7 @@ export default {
             sliderLabels: ['0%', '25%', '50%', '75%', '100%'],
             id: getUniqueId(),
             liquidityProviderFee: appConfig.settings.fUniswapLiquidityProviderFee,
-            submitLabel: 'Select a token',
+            submitLabel: 'Select a TOKEN',
             /** @type {UniswapPair} */
             dPair: {},
             /** @type {UniswapPair[]} */
@@ -834,7 +834,7 @@ export default {
                     this.submitBtnDisabled = false;
                 }
             } else if (!this.toToken.address) {
-                this.submitLabel = 'Select a token';
+                this.submitLabel = 'Select a TOKEN';
             } else if (this.sufficientPairLiquidity === false) {
                 this.submitLabel = 'Insufficient Pair Liquidity';
             } else {

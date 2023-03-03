@@ -5,7 +5,7 @@
         <h2>fWallet</h2>
         <settings-form />
 
-        <h2>fUNI</h2>
+        <h2>Redeem</h2>
         <f-uniswap-settings />
 
         <h2>Metamask</h2>

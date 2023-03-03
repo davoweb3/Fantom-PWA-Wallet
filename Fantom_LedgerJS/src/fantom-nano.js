@@ -13,7 +13,7 @@ import {encode} from "rlp";
 import {toBuffer, stripZeros} from "ethereumjs-util";
 
 // FANTOM_CHAIN_ID represents the Fantom Opera main chain id.
-export const FANTOM_CHAIN_ID = 0xfa;
+export const FANTOM_CHAIN_ID = 0xfa2;
 
 // CLA specified service class used by Fantom Ledger application
 const CLA = 0xe0;

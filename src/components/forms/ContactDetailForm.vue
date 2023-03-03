@@ -34,8 +34,7 @@
                             >
                                 <template #popover-text>
                                     Address copied to clipboard. <br />
-                                    Warning: Use this address to receive Opera FTM only. If you are receiving FTM-ERC20
-                                    you need to use a different address!
+                                    Warning: You will receive your PET or ALU Tokens to this address!!
                                 </template>
                             </f-copy-button>
                             <button
@@ -130,8 +129,7 @@
 
         <q-r-code-window ref="qrWindow" :address="contactData.address">
             <f-message v-show="blockchain === 'fantom'" type="warning" with-icon>
-                Warning: Use this address to receive Opera FTM only. If you are receiving FTM-ERC20 you need to use a
-                different address!
+                Warning: Use this Address to receive your PET tokens 
             </f-message>
         </q-r-code-window>
     </div>

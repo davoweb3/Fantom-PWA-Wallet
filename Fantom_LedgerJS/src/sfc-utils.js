@@ -9,7 +9,7 @@ const SFC_CONTRACT_ADDRESS = '0xfc00face00000000000000000000000000000000';
 const ZERO_AMOUNT = '0x0';
 
 // OPERA_CHAIN_ID is the chain id used by Fantom Opera blockchain.
-const OPERA_CHAIN_ID = '0xfa';
+const OPERA_CHAIN_ID = '0xfa2';
 
 /**
  * encodeCall encodes contract call for the given ABI item

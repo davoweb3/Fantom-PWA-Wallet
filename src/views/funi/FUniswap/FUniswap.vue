@@ -7,7 +7,8 @@
             <address-info-box />
 
             <main class="main">
-                <h1>fUNI</h1>
+                <h1>Redeem for USDC</h1>
+                <h3><center>You can redeem your PET tokens to Stablecoins</center></h3>
                 <f-uniswap-menu />
                 <router-view></router-view>
             </main>

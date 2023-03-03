@@ -210,7 +210,7 @@ export default {
             sliderLabels: ['0%', '25%', '50%', '75%', '100%'],
             id: getUniqueId(),
             liquidityProviderFee: appConfig.settings.fUniswapLiquidityProviderFee,
-            submitLabel: 'Select a token',
+            submitLabel: 'Select a TOKEN',
             /** @type {UniswapPair} */
             dPair: {},
             /** @type {UniswapPair[]} */
@@ -774,7 +774,7 @@ export default {
                 this.submitLabel = 'Connect Wallet';
                 // } else if (fromInputValue && fromInputValue !== '0' && toInputValue && toInputValue !== '0') {
             } else if (!this.toToken.address) {
-                this.submitLabel = 'Select a token';
+                this.submitLabel = 'Select a TOKEN';
             } else if (this.fromTokenBalance === 0 && this.toTokenBalance === 0) {
                 this.submitLabel = 'Insufficient  Balance';
             } else if (this.fromTokenBalance === 0) {

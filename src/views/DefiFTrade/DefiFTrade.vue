@@ -346,7 +346,7 @@ export default {
 
             const account = await this.$fWallet.getBalance(this.currentAccount.address, false, true);
             const ftmToken = {
-                address: '0xfc00face00000000000000000000000000000000',
+                address: '0x2936C1Af841F61cf6489B5B989c5070b2b6A2Df5',
                 symbol: 'FTM',
                 name: 'Fantom',
                 isActive: true,
